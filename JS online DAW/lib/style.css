@@ -1,0 +1,44 @@
+.muteButton {
+	background-color:#44c767;
+	border-radius:28px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.muteButton:hover {
+	background-color:#5cbf2a;
+}
+.muteButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myButton2 {
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton2:hover {
+	background-color:#eb675e;
+}
+.myButton2:active {
+	position:relative;
+	top:1px;
+}
+
+  

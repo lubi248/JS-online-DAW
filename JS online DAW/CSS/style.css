@@ -1,0 +1,314 @@
+
+
+.playButton {
+	background-color:#44c767;
+	border-radius:42px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 7px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.playButton:hover {
+	background-color:#5cbf2a;
+}
+.playButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.addButton {
+	background-color:#44c767;
+	border-radius:42px;
+	border:1px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 7px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.addButton:hover {
+	background-color:#5cbf2a;
+}
+.addButton:active {
+	position:relative;
+	top:1px;
+}
+
+.stopButton {
+	background:linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+	background-color:#c62d1f;
+	border-radius:42px;
+	border:1px solid #d02718;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:17px;
+	padding:13px 7px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #810e05;
+}
+.stopButton:hover {
+	background:linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+	background-color:#f24437;
+}
+.stopButton:active {
+	position:relative;
+	top:1px;
+}
+
+.rMute {
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 5px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.rMute:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.rMute:active {
+	position:relative;
+	top:1px;
+}
+
+
+.rSolo {
+	background:linear-gradient(to bottom, #44c767 5%, #5cbf2a 100%);
+	background-color:#44c767;
+	border:2px solid #18ab29;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:5px 5px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #2f6627;
+}
+.rSolo:hover {
+	background:linear-gradient(to bottom, #5cbf2a 5%, #44c767 100%);
+	background-color:#5cbf2a;
+}
+.rSolo:active {
+	position:relative;
+	top:1px;
+}
+
+
+.delButton {
+	background:linear-gradient(to bottom, #d0451b 5%, #bc3315 100%);
+	background-color:#d0451b;
+	border:2px solid #942911;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	padding:3px 3px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #854629;
+}
+.delButton:hover {
+	background:linear-gradient(to bottom, #bc3315 5%, #d0451b 100%);
+	background-color:#bc3315;
+}
+.delButton:active {
+	position:relative;
+	top:1px;
+}
+
+
+.slide{
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 20%;
+}
+.slide:focus {
+  outline: none;
+}
+.slide::-webkit-slider-runnable-track {
+  width: 20%;
+  height: 12px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000;
+  background: #2dde6f;
+  border-radius: 50px;
+  border: 1px solid #000000;
+}
+.slide::-webkit-slider-thumb {
+  box-shadow: 0px 0px 1px #000000;
+  border: 1px solid #000000;
+  height: 25px;
+  width: 35px;
+  border-radius: 50px;
+  background: #FFFFFF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7.5px;
+}
+.slide:focus::-webkit-slider-runnable-track {
+  background: #2dde6f;
+}
+.slide::-moz-range-track {
+  width: 20%;
+  height: 12px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000;
+  background: #2dde6f;
+  border-radius: 50px;
+  border: 1px solid #000000;
+}
+.slide::-moz-range-thumb {
+  box-shadow: 0px 0px 1px #000000;
+  border: 1px solid #000000;
+  height: 25px;
+  width: 35px;
+  border-radius: 50px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.slide::-ms-track {
+  width: 20%;
+  height: 12px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.slide::-ms-fill-lower {
+  background: #2dde6f;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  box-shadow: 1px 1px 1px #000000;
+}
+.slide::-ms-fill-upper {
+  background: #2dde6f;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  box-shadow: 1px 1px 1px #000000;
+}
+.slide::-ms-thumb {
+  box-shadow: 0px 0px 1px #000000;
+  border: 1px solid #000000;
+  height: 25px;
+  width: 35px;
+  border-radius: 50px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.slide:focus::-ms-fill-lower {
+  background: #2dde6f;
+}
+.slide:focus::-ms-fill-upper {
+  background: #2dde6f;
+}
+
+.slider {
+  -webkit-appearance: none;
+  margin: 10px 0;
+  width: 10%;
+}
+.slider:focus {
+  outline: none;
+}
+.slider::-webkit-slider-runnable-track {
+  width: 10%;
+  height: 12px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000;
+  background: #2dde6f;
+  border-radius: 50px;
+  border: 1px solid #000000;
+}
+.slider::-webkit-slider-thumb {
+  box-shadow: 0px 0px 1px #000000;
+  border: 1px solid #000000;
+  height: 25px;
+  width: 35px;
+  border-radius: 50px;
+  background: #FFFFFF;
+  cursor: pointer;
+  -webkit-appearance: none;
+  margin-top: -7.5px;
+}
+.slider:focus::-webkit-slider-runnable-track {
+  background: #2dde6f;
+}
+.slider::-moz-range-track {
+  width: 10%;
+  height: 12px;
+  cursor: pointer;
+  animate: 0.2s;
+  box-shadow: 1px 1px 1px #000000;
+  background: #2dde6f;
+  border-radius: 50px;
+  border: 1px solid #000000;
+}
+.slider::-moz-range-thumb {
+  box-shadow: 0px 0px 1px #000000;
+  border: 1px solid #000000;
+  height: 25px;
+  width: 35px;
+  border-radius: 50px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.slider::-ms-track {
+  width: 10%;
+  height: 12px;
+  cursor: pointer;
+  animate: 0.2s;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+}
+.slider::-ms-fill-lower {
+  background: #2dde6f;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  box-shadow: 1px 1px 1px #000000;
+}
+.slider::-ms-fill-upper {
+  background: #2dde6f;
+  border: 1px solid #000000;
+  border-radius: 100px;
+  box-shadow: 1px 1px 1px #000000;
+}
+.slider::-ms-thumb {
+  box-shadow: 0px 0px 1px #000000;
+  border: 1px solid #000000;
+  height: 25px;
+  width: 35px;
+  border-radius: 50px;
+  background: #FFFFFF;
+  cursor: pointer;
+}
+.slider:focus::-ms-fill-lower {
+  background: #2dde6f;
+}
+.slider:focus::-ms-fill-upper {
+  background: #2dde6f;
+}
